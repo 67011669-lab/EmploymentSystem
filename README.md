@@ -3,7 +3,7 @@
 A desktop application built with Rust that utilizes the egui framework for its interface and SQLite for data persistence. This system features a unique geolocation-based attendance tracker that ensures employees are physically present within a designated "work zone" to log their hours.
 
 # Key Features
-Geofenced Attendance: * Automatically fetches the user's IP-based location.
+Geofenced Attendance: Automatically fetches the user's IP-based location.
 
 Verifies if the user is within a predefined Square (latitude/longitude boundaries).
 Logs "Work Time" in seconds only when the user is inside the geofence.
